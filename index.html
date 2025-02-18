@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio Website </title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Rachit Sharma</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+      <!--===== HOME =====-->
+<section class="home bd-grid" id="home">
+    <div class="home__data">
+        <h1 class="home__title">
+            Hi,<br>
+            <span class="home__title-vertical">I am</span>
+            <span class="home__title-color home__title-horizontal">Rachit Sharma</span>
+        </h1>
+        <a href="#contact" class="button">Contact</a> <!-- Moved contact button inside home__data -->
+    </div>
+
+    <div class="home__social">
+        <a href="https://www.linkedin.com/in/rachit-sharma-b34839287/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/rachitzzz" class="home__social-icon"><i class='bx bxl-github'></i></a>
+        <a href="mail2to:rachitsharma77788@gmail.com" class="home__social-icon"><i class='bx bxs-envelope'></i></a>
+    </div>
+
+    <div class="home__img">
+        <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <mask id="mask0" mask-type="alpha">
+                <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+            </mask>
+            <g mask="url(#mask0)">
+                <rect width="100%" height="100%" fill="none"/> <!-- Removes any background fill -->
+                <image class="home__blob-img" x="50" y="60" width="300" height="300" href="10.png"/>
+            </g>
+        </svg>
+    </div>
+</section>
+
+<!--===== ABOUT =====-->
+<section class="about section" id="about">
+    <h1 class="section-title">About</h1>
+
+    <div class="about__container bd-grid">
+        <div class="about__img">
+            <img src="8.jpg" alt="">
+        </div>
+        
+        <div>
+            <h2 class="about__subtitle">I'am Rachit Sharma</h2>
+            <p class="about__text">
+                Currently engaged in Web Development, Data Science, and Artificial Intelligence, striving for excellence in each endeavor.
+
+                🤝 Open to collaboration on impactful open source projects, as I believe collective efforts lead to remarkable results. I'm particularly interested in projects that promote sustainability, education, or community well-being.
+
+                📊 Currently enhancing my skills in Data Analysis using Python, aiming for proficiency and precision in data-driven insights. My goal is to leverage data to uncover meaningful patterns and contribute to informed decision-making.
+
+                💬 Outside of coding, I enjoy exploring diverse literature, discussing tech trends, and contributing to knowledge-sharing communities. I'm also passionate about photography and occasionally capture moments that tell a story.
+
+                I'm also involved in the corporate domain in the IEEE GRSS Club.
+            </p>
+        </div>                                   
+    </div>
+</section>
+
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+    
+        <div class="skills__container bd-grid">          
+            <div>
+                <h2 class="skills__subtitle">Professional Skills</h2>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills__name">HTML</span>
+                    </div>
+                    <div class="skills_bar skills_html"></div>
+                    <div><span class="skills__percentage"></span></div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-css3 skills__icon'></i>
+                        <span class="skills__name">CSS</span>
+                    </div>
+                    <div class="skills_bar skills_css"></div>
+                    <div><span class="skills__percentage"></span></div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-java skills__icon'></i>
+                        <span class="skills__name">Java</span>
+                    </div>
+                    <div class="skills_bar skills_java"></div>
+                    <div><span class="skills__percentage"></span></div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-react skills__icon'></i>
+                        <span class="skills__name">React</span>
+                    </div>
+                    <div class="skills_bar skills_react"></div>
+                    <div><span class="skills__percentage"></span></div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-python skills__icon'></i>
+                        <span class="skills__name">Python</span>
+                    </div>
+                    <div class="skills_bar skills_python"></div>
+                    <div><span class="skills__percentage"></span></div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-c-plus-plus skills__icon'></i>
+                        <span class="skills__name">C++</span>
+                    </div>
+                    <div class="skills_bar skills_cpp"></div>
+                    <div><span class="skills__percentage"></span></div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-mysql skills__icon'></i>
+                        <span class="skills__name">MySQL</span>
+                    </div>
+                    <div class="skills_bar skills_mysql"></div>
+                    <div><span class="skills__percentage"></span></div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-java skills__icon'></i> <!-- Using Java icon for Java Swing -->
+                        <span class="skills__name">Java Swing</span>
+                    </div>
+                    <div class="skills_bar skills_swing"></div>
+                    <div><span class="skills__percentage"></span></div>
+                </div>
+            </div>
+            
+            <div>              
+                <img src="7.jpg" alt="" class="skills__img">
+            </div>
+        </div>
+    </section>
+
+<!--===== DSA PROGRESS =====-->
+<section class="dsa section" id="dsa">
+    <h2 class="section-title">DSA Progress</h2>
+
+    <div class="dsa__container bd-grid">
+        <p class="dsa__text">
+            Currently mastered key DSA concepts up to <strong>Graphs</strong>. Continuously learning and enhancing skills to tackle complex problems effectively.
+        </p>
+        
+        <div class="dsa__topics">
+            <div class="dsa__topic">
+                <i class='bx bx-data'></i>
+                <span>Arrays</span>
+            </div>
+            <div class="dsa__topic">
+                <i class='bx bx-link-alt'></i>
+                <span>Linked Lists</span>
+            </div>
+            <div class="dsa__topic">
+                <i class='bx bx-layer'></i>
+                <span>Stacks & Queues</span>
+            </div>
+            <div class="dsa__topic">
+                <i class='bx bx-tree'></i>
+                <span>Trees</span>
+            </div>
+            <div class="dsa__topic">
+                <i class='bx bx-graph'></i>
+                <span>Graphs</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="work__container bd-grid">
+                <a href="" class="work__img">
+                    <img src="1.png" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="2.png" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="3.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="4.png" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="5.png" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="6.png" alt="">
+                </a>
+            </div>
+        </section>
+
+<!-- ===== PROJECTS =====
+<section class="projects section" id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects__container bd-grid">
+        <a href="https://github.com/yr5924/Supermarket-Management-System" class="projects__img" target="_blank">
+            
+            <h3 class="projects__title">Supermarket Management System</h3>
+            <p class="projects__description">An application for managing supermarket operations including inventory and sales tracking.</p>
+        </a>
+        
+        <a href="https://github.com/yr5924/Heart-Disease" class="projects__img" target="_blank">
+         
+            <h3 class="projects__title">Heart Disease Prediction Model</h3>
+            <p class="projects__description">A predictive model to assess the risk of heart disease based on various health parameters.</p>
+        </a>
+    </div>
+</section> -->
+
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__input">
+                    <textarea placeholder="Message" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="submit" value="Send" class="contact__button button">
+                </form>
+                <div class="contact__social">
+                    <a href="mailto:rs0854@srmist.edu.in" class="contact__social-icon"><i class='bx bxl-mail-send'></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Rachit Sharma</p>
+        <div class="contact-details">
+            <p>📧 Email: rs0854@srmist.edu.in</p>
+            <p>📞 Phone: 7878225188</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.twitter.com" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy">&#169; Rachit Sharma . All rights reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="main.js"></script>
+    <script>
+        // Function to check if an element is in the viewport
+        function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+            );
+        }
+    
+        // Function to add animation to DSA topics
+        function animateDSATopics() {
+            const dsaTopics = document.querySelectorAll('.dsa__topic');
+            
+            dsaTopics.forEach((topic, index) => {
+                if (isInViewport(topic)) {
+                    topic.style.opacity = '1'; // Make it visible
+                    topic.style.animation = `wave 0.8s forwards`;
+                    topic.style.animationDelay = `${index * 0.1}s`; // Delay for wave effect
+                }
+            });
+        }
+    
+        // Event listener for scroll events
+        window.addEventListener('scroll', animateDSATopics);
+    </script>
+    
+</body>
+</html>
