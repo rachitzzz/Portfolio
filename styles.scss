@@ -1,0 +1,181 @@
+// Variables
+$primary-color: #007bff;
+$secondary-color: #1E2A38;
+$light-bg: #f8f8f8;
+$dark-bg: #fff;
+
+// General Styles
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+// Header Styles
+.l-header {
+    background-color: $secondary-color;
+    padding: 20px 0;
+}
+
+.nav__logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+// Home Section Styles
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    position: relative;
+
+    .home__title {
+        font-size: 36px;
+        color: #333;
+
+        .home__title-color {
+            color: $primary-color;
+        }
+    }
+
+    .home__img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 250px;
+        height: auto;
+    }
+
+    .home__blob-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+// About Section Styles
+.about {
+    padding: 50px 0;
+    background-color: $dark-bg;
+
+    .about__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about__img img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+// Skills Section Styles
+.skills {
+    padding: 50px 0;
+    background-color: $light-bg;
+
+    .skills__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .skills__img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .skills__data {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+
+        .skills__bar {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            margin-right: 10px;
+        }
+
+        .skills__percentage {
+            font-size: 14px;
+        }
+    }
+}
+
+// Work Section Styles
+.work {
+    padding: 50px 0;
+
+    .work__container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .work__img img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+// Contact Section Styles
+.contact {
+    padding: 50px 0;
+    background-color: $dark-bg;
+
+    .contact__form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .contact__input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        .contact__button {
+            padding: 10px;
+            background-color: $primary-color;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    }
+}
+
+// Footer Styles
+.footer {
+    background-color: $secondary-color;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+
+    .footer__title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .footer__social {
+        margin: 10px 0;
+
+        .footer__icon {
+            color: #fff;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    }
+
+    .footer__copy {
+        margin-top: 10px;
+    }
+}
